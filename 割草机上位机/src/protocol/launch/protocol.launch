@@ -1,0 +1,4 @@
+<launch>
+<node pkg="protocol" type = "protocol_node.py" name = "protocol_node" output = "screen">
+</node>
+</launch>

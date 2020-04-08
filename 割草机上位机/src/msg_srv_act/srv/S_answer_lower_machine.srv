@@ -1,0 +1,7 @@
+# 0 is receive the answer for lower machine
+# 1 is send the answer to lower machine
+uint8 service_type
+
+---
+# 1 is succeed ,0 is false
+uint8 answer

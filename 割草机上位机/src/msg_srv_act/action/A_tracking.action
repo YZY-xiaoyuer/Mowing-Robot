@@ -1,0 +1,16 @@
+# tracking path action
+
+# Define the goal
+#1 is start tracking  0 is stop tracking
+uint8 action_type
+# the path for the tracking
+float32[] path_x
+float32[] path_y
+---
+# Define the result
+# 1 is successed  2 is false    0 is doing
+uint8 result
+---
+# Define a feedback message
+# percent 0 - 100
+uint8 percent

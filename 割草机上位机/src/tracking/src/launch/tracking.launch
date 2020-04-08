@@ -1,0 +1,5 @@
+<launch>
+<include file="$(find planning)/launch/planning.launch"/>
+<node pkg="tracking" type = "tracking_node.py" name = "tracking_node" output = "screen">
+</node>
+</launch>

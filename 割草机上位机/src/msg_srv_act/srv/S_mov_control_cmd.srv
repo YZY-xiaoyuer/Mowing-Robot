@@ -1,0 +1,7 @@
+uint8 moving_cmd_type
+int16 v
+float32 w
+float32 s_or_angle
+---
+# 1 is succeed ,0 is false
+uint8 answer

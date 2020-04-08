@@ -1,0 +1,13 @@
+# the service type :0 is request the global map
+uint8 server_type
+
+---
+# Pixel resolution in meters
+float32 resolution
+# [origin_x, origin_y, 0]
+float32[] origin
+#Map height in pixel
+float32 hight
+#Map width in pixel
+float32 width
+uint8[] map_data

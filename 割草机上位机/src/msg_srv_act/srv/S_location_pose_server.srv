@@ -1,0 +1,6 @@
+# 1  is request the now location pose
+uint8 server_type
+
+---
+# return now location pose [x, y, yaw, pitch, v]
+float32[] pose

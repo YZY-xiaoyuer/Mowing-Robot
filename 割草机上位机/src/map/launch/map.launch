@@ -1,0 +1,5 @@
+<launch>
+<include file="$(find location)/launch/location.launch"/>
+<node pkg="map" type = "map_server_node.py" name = "map_server_node" output = "screen">
+</node>
+</launch>

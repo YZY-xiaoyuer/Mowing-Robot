@@ -1,0 +1,5 @@
+<launch>
+<include file="$(find map)/launch/map.launch"/>
+<node pkg="planning" type = "planning_server_node.py" name = "planning_server_node" output = "screen">
+</node>
+</launch>

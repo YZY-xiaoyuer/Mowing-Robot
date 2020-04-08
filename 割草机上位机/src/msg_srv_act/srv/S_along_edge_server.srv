@@ -1,0 +1,6 @@
+# Location of the start point [x,y]
+float32[] start_position
+---
+# the location pose is in the meter no pixel,,planning path
+float32[] path_x
+float32[] path_y

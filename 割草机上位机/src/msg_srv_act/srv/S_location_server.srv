@@ -1,0 +1,10 @@
+# 0 is Heading synchronization
+# 1 is Coordinate synchronization
+# 2 is Real-time positioning
+uint8 server_type
+# 1 is open ; 0 is close
+uint8 server_state
+
+---
+# 1 is succeed ,0 is false
+uint8 answer

@@ -1,0 +1,14 @@
+# build map action
+
+# Define the goal
+#1 is start build map  0 is stop build map
+uint8 action_type
+---
+# Define the result
+# 1 is successed 0 is false
+uint8 result
+---
+# Define a feedback message
+# 0 is start  1 is doing  2 is finish
+uint8 state
+

@@ -1,0 +1,5 @@
+<launch>
+<include file="$(find protocol)/launch/protocol.launch"/>
+<node pkg="location" type = "location_node.py" name = "location_node" output = "screen">
+</node>
+</launch>

@@ -1,0 +1,9 @@
+free_thresh: 0.196
+image: /home/zz-morning/catkin_ws/src/map/src/map_pitcure/global_map.png
+negate: 0
+occupied_thresh: 0.65
+origin:
+- -0.9983000499249629
+- -4.700207074855195
+- 0
+resolution: 0.05
